@@ -1,4 +1,4 @@
-import classes from "./styles/App.scss";
+import classes from "./styles/App.module.scss";
 
 function App() {
   return (

@@ -1,0 +1,48 @@
+@use './variables' as *;
+
+body {
+  background-color: $clr-grayish-blue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $ff-primary;
+  .main {
+    background-color: $clr-white;
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    .qrImage {
+      width: 288px;
+      height: 288px;
+      background-image: url('../assets/image-qr-code.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+    }
+    h1 {
+      color: $clr-dark-blue;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27.72px;
+      width: 288px;
+      text-align: center;
+    }
+    p {
+      width: 256px;
+      color: $clr-light-gray;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18.9px;
+      text-align: center;
+    }
+  }
+}
+
+
+
